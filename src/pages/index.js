@@ -20,6 +20,7 @@ const IndexPage = () => (
     <Link to="/what-to-expect">What to Expect</Link>
     <Link to="/get-support">Get Support</Link>
   </Layout>
+
 )
 
 export default IndexPage
