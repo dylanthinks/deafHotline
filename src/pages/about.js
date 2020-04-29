@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
 
  import Layout from "../components/layout"
 
@@ -28,7 +27,6 @@ class About extends Component {
   
         Deaf advocates additionally have outreach campaigns to spread awareness and education about this hotline as well as information regarding domestic violence and sexual assault within the Deaf community.
         </p>
-        <Link to="/">Home</Link>
      </Layout>
     )
   }

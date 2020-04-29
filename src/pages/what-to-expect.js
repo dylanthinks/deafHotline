@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 
@@ -58,7 +57,6 @@ Yes. If you’re looking for someone to lend a confidential, impartial ear, our 
 
 The advocates at our Hotline are available 24/7/365 to take your calls at 855-812-1001.
       </p>
-      <Link to="/">Home</Link>
     </Layout>
     )
   }

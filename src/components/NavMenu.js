@@ -1,17 +1,20 @@
-import React, { Component } from "react"
+import React from "react"
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
+// import PropTypes from "prop-types"
 
 import styled from "styled-components"
 
 
 const NavMenu = styled.div`
-  margin: 0 auto;
-  max-width: 95vw;
+
   padding: 1.45rem 1.0875rem;
+ 
   & ul li {
+    display: inline-flex;
+    flex-direction: row;
     color: white;
     list-style-type: none;
+    padding: .5rem;
   }
 `
 
@@ -19,7 +22,11 @@ export default () => (
   <NavMenu>
     <ul>
       <li><Link to="/about">About</Link></li>
-      <li><Link to="/about">About</Link></li>
+      <li><Link to="/get-support">Get Support</Link></li>
+      <li><Link to="/domestic-violence">Domestic Violence</Link></li>
+      <li><Link to="/community-intervention">Community Intervention</Link></li>
+      <li><Link to="/healthy-relationships">Healthy Relationships</Link></li>
+      <li><Link to="/resources">Resources</Link></li>
     </ul>
     </NavMenu>
 )

@@ -1,5 +1,4 @@
 import React, { Component } from "react" 
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 
@@ -15,7 +14,6 @@ class GetSupport extends Component {
 
       Deaf advocates are able to provide culturally-sensitive crisis intervention, education, information and referrals for Deaf callers.
       </p>
-        <Link to="/">Home</Link>
       </Layout>
     )
   }

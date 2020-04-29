@@ -8,11 +8,11 @@ import NavMenu from "../components/navmenu"
 
 const Container = styled.header`
 display: flex;
-flex-wrap: wrap;
 align-items: center;
 justify-content: space-around;
 background: rebeccapurple;
 margin-bottom: 1.45rem;
+padding: 2rem;
 & a {
   text-decoration: none;
   color: white; 
