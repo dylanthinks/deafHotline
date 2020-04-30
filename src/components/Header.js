@@ -5,12 +5,13 @@ import React from "react"
 import styled from "styled-components"
 
 import NavMenu from "../components/navmenu"
+import Hands2 from "../images/handsLogo2.png"
 
 const Container = styled.header`
 display: flex;
 align-items: center;
 justify-content: space-around;
-background: rebeccapurple;
+background: #684BB6;
 margin-bottom: 1.45rem;
 padding: 2rem;
 & a {
@@ -29,6 +30,7 @@ const Header = ({ siteTitle }) => (
       <h1>
         <Link to="/">
           {siteTitle}
+          <img src={Hands2} alt="Deaf Hotline logo, two hands intertwined"/>
         </Link>
       </h1>
       <NavMenu />
