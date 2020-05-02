@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
- import Layout from "../components/layout"
+import Layout from "../components/layout"
 
 class About extends Component {
   render() {
@@ -8,8 +8,8 @@ class About extends Component {
       <Layout>
         <h1>About The National Deaf DV Hotline</h1>
         <p>
-        The National Deaf Domestic Violence Hotline provides 24/7 support for Deaf callers nationwide. More so, we provide advocacy and information regarding domestic violence and sexual assault. ADWAS, in Seattle, Washington, partners with the National Domestic Violence Hotline (NDVH), in Austin, Texas, to provide DV services in American Sign Language.
-        As a result of this partnership, Deaf advocates at the Hotline can be reached at any time through videophone (VP), live chat or email.
+        The National Deaf Domestic Violence Hotline provides 24/7 support for Deaf callers nationwide. More so, we provide advocacy and information regarding domestic violence and sexual assault. <a href="https://www.adwas.org/">ADWAS</a>, in Seattle, Washington, partners with the <a href="https://www.thehotline.org/">National Domestic Violence Hotline</a> (NDVH), in Austin, Texas, to provide DV services in American Sign Language.
+        As a result of this partnership, Deaf advocates at the Hotline can be reached at any time through videophone (VP), live chat or <a href="mailto:nationaldeafhotline@adwas.org">email</a>.
         </p>
         <h2>More about services provided</h2>
         <p>

@@ -6,9 +6,12 @@ import styled from "styled-components"
 
 
 const NavMenu = styled.div`
-
-  padding: 1.45rem 1.0875rem;
- 
+ /* padding: 1.5rem 1rem; */
+ display: inline-flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ text-transform: uppercase;
+  font-size: 1rem;
   & ul li {
     display: inline-flex;
     flex-direction: row;

@@ -9,28 +9,31 @@ import Hands2 from "../images/handsLogo2.png"
 
 const Container = styled.header`
 display: flex;
+justify-content: space-between;
 align-items: center;
-justify-content: space-around;
-background: #684BB6;
-margin-bottom: 1.45rem;
-padding: 2rem;
+padding: 1rem;
+background: linear-gradient(45deg, #684BB6, #B11E43);
 & a {
   text-decoration: none;
   color: white; 
-  margin: 0;
 }
   & a:hover {
    text-decoration: underline;
 }
 `
 
+const Logo = styled.img`
+  margin: 0 auto;
+  padding: 1rem;
+  }
+`
 
 const Header = ({ siteTitle }) => (
   <Container>
       <h1>
         <Link to="/">
-          {siteTitle}
-          <img src={Hands2} alt="Deaf Hotline logo, two hands intertwined"/>
+          {/* siteTitle */}
+          <Logo src={Hands2} alt="Deaf Hotline logo, two hands intertwined"/>
         </Link>
       </h1>
       <NavMenu />
