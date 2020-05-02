@@ -8,11 +8,9 @@ import Instagram from "../images/instagram.svg"
 
 
 const Logos = styled.div`
-display: flex;
 padding: 1rem;
 `
 const Logo = styled.img`
-padding: 1rem;
 fill: purple;
 &:hover {
   fill: blue;

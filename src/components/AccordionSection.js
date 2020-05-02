@@ -22,23 +22,21 @@ class AccordionSection extends Component {
     return (
       <div 
         style={{
-          background: isOpen ? '#fae042' : '#000',
-          border: '1px solid #008f68',
+          background: isOpen ? '#fff' : '#fff',
+          border: '1px solid #1C55A5',
           padding: '5px 10px',
         }}
         >
-          <div onClick={onClick} style={{ cursor: 'pointer' }}>
+          <div onClick={onClick} style={{ cursor: 'pointer', fontWeight: '600' }}>
             {label}
             <div style={{ float: 'right' }}>
-              {!isOpen && <span>&#9650;</span>}
-              {isOpen && <span>&#9660</span>}
+              {!isOpen && <span>▲</span>}
+              {isOpen && <span>▼</span>}
             </div>
           </div>
           {isOpen && (
             <div 
               style={{
-                background: '#6db65b',
-                border: '2px solid #008f68',
                 marginTop: 10,
                 padding: '10px 20px',
               }}
