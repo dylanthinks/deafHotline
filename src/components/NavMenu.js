@@ -5,13 +5,15 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 
-const NavMenu = styled.div`
+const NavMenu = styled.nav`
  /* padding: 1.5rem 1rem; */
  display: inline-flex;
  flex-direction: row;
  flex-wrap: wrap;
+
  text-transform: uppercase;
-  font-size: 1rem;
+  font-size: .85rem;
+  font-weight: 600;
   & ul li {
     display: inline-flex;
     flex-direction: row;

@@ -9,9 +9,13 @@ import Instagram from "../images/instagram.svg"
 
 const Logos = styled.div`
 padding: 1rem;
+> a {
+  padding: 1rem;
+}
 `
 const Logo = styled.img`
 fill: purple;
+transform: scale(1.25);
 &:hover {
   fill: blue;
 }
