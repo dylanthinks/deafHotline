@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import PropTypes from "prop-types"
 
 class Exit extends Component {
   render() {
@@ -10,10 +11,13 @@ class Exit extends Component {
     window.location.replace('https://google.com'); 
   }
   
-  
+  function Esc(props) {
+    document.querySelector("#exit a")
+  }
   $(function() {
     
-    $("#exit").on("click", function(e) {
+     
+   // $("#exit").on("click", function(e) {
       ExitKey();
     });
   
@@ -30,7 +34,7 @@ class Exit extends Component {
   
   });
   return (
-    <p id="exit">Learn how to <a href="https://www.domesticshelters.org/safe-surfing">browse safely</a>Go</p>
+    <button id="exit">Learn how to <a href="https://www.domesticshelters.org/safe-surfing">browse safely</a> Go</button>
   )
   }
 }

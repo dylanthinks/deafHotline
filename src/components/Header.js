@@ -5,14 +5,14 @@ import React from "react"
 import styled from "styled-components"
 
 import NavMenu from "../components/navmenu"
-import Hands2 from "../images/handsLogo2.png"
+import DeafHotlineLogo from "../images/DeafHotlineLogo.png"
 
 const Container = styled.header`
 display: flex;
-justify-content: space-between;
 align-items: center;
 padding: 1rem;
 background: linear-gradient(45deg, #684BB6, #B11E43);
+max-height: 20%;
 & a {
   text-decoration: none;
   color: white; 
@@ -25,6 +25,7 @@ background: linear-gradient(45deg, #684BB6, #B11E43);
 const Logo = styled.img`
   margin: 0 auto;
   padding: 1rem;
+  max-width: 75%;
   }
 `
 
@@ -33,7 +34,11 @@ const Header = ({ siteTitle }) => (
       <h1>
         <Link to="/">
           {/* siteTitle */}
-          <Logo src={Hands2} alt="Deaf Hotline logo, two hands intertwined"/>
+          <Logo src={DeafHotlineLogo} alt="Deaf Hotline logo, two hands intertwined"
+            fluid={{
+              sizes: "(width: 150px) calc(100vw - 20px), 1200px"
+            }}
+          />
         </Link>
       </h1>
       <NavMenu />
