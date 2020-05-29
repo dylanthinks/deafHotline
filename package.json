@@ -48,7 +48,7 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "resolutions": {
-    "**/react": "16.12.0",
-    "**/react-dom": "16.12.0"
+   // "**/react": "16.12.0",
+   // "**/react-dom": "16.12.0"
   }
 }
